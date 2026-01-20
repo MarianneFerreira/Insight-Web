@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Insight Web</title>
+  <!-- Tipografia profissional -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <header class="header">
+    <h1 class="logo">Insight Web</h1>
+    <nav class="nav">
+      <a href="#services">Serviços</a>
+      <a href="#cases">Cases</a>
+      <a href="#contact">Contato</a>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <h2>Transformamos dados confusos em decisões claras</h2>
+    <p>
+      A Insight Web ajuda negócios e profissionais a entenderem seus dados
+      e tomarem decisões mais inteligentes.
+    </p>
+    <a href="#contact" class="btn-primary">Falar com a Insight Web</a>
+  </section>
+
+  <section id="services" class="services">
+    <h3>O que fazemos</h3>
+    <div class="services-grid">
+      <div class="card">
+        <h4>Análise de dados</h4>
+        <p>Dashboards e relatórios estratégicos para decisões melhores.</p>
+      </div>
+      <div class="card">
+        <h4>Automação</h4>
+        <p>Planilhas e relatórios automáticos que economizam tempo.</p>
+      </div>
+      <div class="card">
+        <h4>Soluções web</h4>
+        <p>Sites simples e orientados a métricas e conversão.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="cases" class="cases">
+    <h3>Estudos de caso</h3>
+    <div class="cases-list">
+      <a href="case-vendas.html" class="case">
+        <div class="case-thumb" style="background-image: url('Assets/Images/case-vendas.jpg');"></div>
+        <h4>Aumento de vendas com análise de dados</h4>
+        <p>Como dados bem analisados revelaram produtos e canais mais lucrativos.</p>
+        <span class="case-cta">Ver como geramos crescimento →</span>
+      </a>
+
+      <a href="case-dashboard.html" class="case">
+        <div class="case-thumb" style="background-image:url('Assets/Images/case-dashboard.jpg');"></div>
+        <h4>Dashboard estratégico de KPIs</h4>
+        <p>Centralização de indicadores para decisões mais rápidas.</p>
+        <span class="case-cta">Explorar a solução →</span>
+      </a>
+
+      <a href="case-previsao.html" class="case">
+        <div class="case-thumb" style="background-image:url('Assets/Images/case-previsao.jpg');"></div>
+        <h4>Previsão de demanda com dados históricos</h4>
+        <p>Modelo analítico para antecipar vendas e reduzir rupturas.</p>
+        <span class="case-cta">Entender o modelo →</span>
+      </a>
+    </div>
+  </section>
+
+  <section id="contact" class="cta">
+    <h3>Pronto para decidir com dados?</h3>
+    <p>Vamos transformar informação em estratégia.</p>
+    <a href="https://wa.me/5521980259238" class="btn-secondary">Entrar em contato</a>
+  </section>
+
+  <footer class="footer">
+    <p>© <span id="year"></span> Insight Web. Todos os direitos reservados.</p>
+  </footer>
+
+  <script src="script.js"></script>
+
+</body>
+</html>
