@@ -205,3 +205,22 @@ h4{font-size:1.25rem;font-weight:600;margin-bottom:12px;}
   .header{
     flex-direction:column;
     gap:16px;
+  }
+
+  .nav a{margin-left:16px;}
+
+  .hero{padding:88px 24px;}
+  .hero h2{font-size:2.25rem;}
+
+  .services,
+  .cases,
+  .cta{
+    padding:var(--section-space-mobile) 24px;
+  }
+
+  .case-thumb{height:180px;}
+
+  h1{font-size:1.8rem;}
+  h2{font-size:1.5rem;}
+  h3{font-size:1.2rem;}
+}
